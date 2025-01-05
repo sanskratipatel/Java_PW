@@ -10,10 +10,11 @@ public class QUniqueElement {
                 if(arr[i] == arr[j]) {
                     find = false;
                 }
+                if(find == true) {
+                    System.out.println(arr[i]);
+                }
             }
-            if(find == true) {
 
-            }
         }
     }
 }
